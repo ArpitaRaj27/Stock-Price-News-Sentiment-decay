@@ -3,7 +3,7 @@
 Real mode: FinBERT (ProsusAI/finbert) via HuggingFace transformers.
 Demo mode: uses pre-labeled `true_sentiment` column from the synthetic news
            generator, with realistic noise added to simulate model error.
-
+ 
 Both modes produce the same output schema so downstream code is source-agnostic.
 """
 from __future__ import annotations
