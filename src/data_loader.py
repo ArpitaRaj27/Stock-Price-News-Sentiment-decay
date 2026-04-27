@@ -3,7 +3,7 @@
 Two modes:
   - real: pulls from yfinance + Finnhub (requires internet, API key for news)
   - demo: generates synthetic data for offline reproducibility and testing
-
+ 
 The demo generator is calibrated to produce realistic-looking returns
 (daily stdev ~1.5%, occasional fat-tail events) and news headlines
 distributed across tiers and sentiments, so downstream analysis code
