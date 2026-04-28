@@ -6,7 +6,7 @@
 
 ## Conceptual framework
 
-The Efficient Market Hypothesis (Fama, 1970) predicts that prices instantly absorb all public information. In practice, post-event drift is well-documented (Bernard & Thomas, 1989) — markets digest news *gradually*, not instantaneously. This project measures the speed of that digestion.
+The Efficient Market Hypothesis ( Fama, 1970) predicts that prices instantly absorb all public information. In practice, post-event drift is well-documented (Bernard & Thomas, 1989) — markets digest news *gradually*, not instantaneously. This project measures the speed of that digestion.
 
 ## Step 1 — Universe selection
 
