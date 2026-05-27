@@ -22,7 +22,8 @@ st.set_page_config(
 
 # ---------------- Data loading ----------------
 @st.cache_data
-def load_all():
+def load_all(): 
+
     cars_path   = config.PROCESSED_DIR / "cars.parquet"
     events_path = config.PROCESSED_DIR / "events.parquet"
     if not cars_path.exists() or not events_path.exists():
