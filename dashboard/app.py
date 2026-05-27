@@ -41,6 +41,7 @@ if cars is None:
         "```bash\npython -m src.pipeline --demo\n```"
     )
     st.stop()
+    
 
 # ---------------- Sidebar  filters ----------------
 st.sidebar.header("Filters")
