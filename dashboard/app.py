@@ -29,6 +29,7 @@ def load_all():
         return None, None
     return pd.read_parquet(cars_path), pd.read_parquet(events_path)
 
+
 cars, events = load_all()
 
 st.title("📉 News Sentiment Decay in US Equity Markets")
