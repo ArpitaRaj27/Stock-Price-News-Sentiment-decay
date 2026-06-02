@@ -10,7 +10,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-# Make src importable 
+# Make src importable
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from src import config, decay  # noqa: E402
 
