@@ -12,7 +12,7 @@ import streamlit as st
 
 # Make src importable
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from src import config, decay  # noqa: E402
+from src import config, decay # noqa: E402
 
 st.set_page_config(
     page_title="News Sentiment Decay",
