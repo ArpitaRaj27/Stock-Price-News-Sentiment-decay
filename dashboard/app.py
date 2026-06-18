@@ -21,7 +21,7 @@ st.set_page_config(
 )
 
 # ---------------- Data loading ----------------
-@st.cache_data
+@st.cache_data:
 def load_all()
 
     cars_path   = config.PROCESSED_DIR / "cars.parquet"
