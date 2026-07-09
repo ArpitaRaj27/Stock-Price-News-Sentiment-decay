@@ -34,7 +34,7 @@ def load_all()
 
 cars, events = load_all()
 
-st.title("📉 News Sentiment Decay in US Equity Markets")
+st.title("📉  News Sentiment Decay in US Equity Markets")
 st.caption("How quickly does the market absorb financial news? A sector-level event study.")
 
 if cars is None:
