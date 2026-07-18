@@ -3,7 +3,7 @@
 Run: streamlit run dashboard/app.py
 """
 from pathlib import Path
-import 
+import sys
 
 import numpy as np
 import pandas as pd
