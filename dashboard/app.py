@@ -2,7 +2,7 @@
 
 Run: streamlit run dashboard/app.py
 """
-from pathlib import 
+from pathlib import Path
 import sys
 
 import numpy as np
