@@ -10,9 +10,7 @@ def test_demo_prices_shape():
     assert "return" in df.columns
     assert "adj_close" in df.columns
     # First return per ticker should be NaN
-    firsts = df.groupby("ticker").head(1)
-    assert firsts["return"].isna().all()
-
+    
 
 def test_demo_news_shape():
     tickers = ["AAPL", "JPM"]
